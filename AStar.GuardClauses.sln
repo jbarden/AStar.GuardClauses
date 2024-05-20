@@ -3,7 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AStar.GuardClauses", "AStar.GuardClauses\AStar.GuardClauses.csproj", "{F203B18B-E447-4A12-923E-5765E83B1A66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AStar.GuardClauses", "AStar.GuardClauses\AStar.GuardClauses.csproj", "{F203B18B-E447-4A12-923E-5765E83B1A66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{007F89C6-6B59-47DC-AC36-670B3F6F328B}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{BB870294-BDDB-46B9-99D3-5C1895B3DBB0}"
+	ProjectSection(SolutionItems) = preProject
+		.github\dependabot.yml = .github\dependabot.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{ED1AE589-FE6F-4DC0-8050-4A18ED7531B0}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +34,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB870294-BDDB-46B9-99D3-5C1895B3DBB0} = {007F89C6-6B59-47DC-AC36-670B3F6F328B}
+		{ED1AE589-FE6F-4DC0-8050-4A18ED7531B0} = {BB870294-BDDB-46B9-99D3-5C1895B3DBB0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {909A7DA5-AF28-42AA-838E-F9E06908823D}
