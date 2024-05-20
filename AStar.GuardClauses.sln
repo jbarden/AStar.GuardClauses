@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AStar.GuardClauses", "AStar.GuardClauses\AStar.GuardClauses.csproj", "{F203B18B-E447-4A12-923E-5765E83B1A66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AStar.GuardClauses", "src\AStar.GuardClauses\AStar.GuardClauses.csproj", "{F203B18B-E447-4A12-923E-5765E83B1A66}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{007F89C6-6B59-47DC-AC36-670B3F6F328B}"
 	ProjectSection(SolutionItems) = preProject
